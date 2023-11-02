@@ -1,7 +1,6 @@
-import React from 'react'
 
 export const Header = () => {
   return (
-    <div>Header</div>
+    <div className="bg-delft_blue-700">Header</div>
   )
 }
