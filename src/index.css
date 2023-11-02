@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .clay-card {
+        backdrop-filter:blur(5px);
+        background-color: rgba(213, 215, 219, 0.5);
+        /* clip-path: ellipse(200% 800% at 50% 50%); */
+        border-radius: 32px;
+        padding: theme('spacing.6');
+        box-shadow: 35px 35px 68px 0px rgba(82, 148, 234, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    }
+
+    .clay-button{
+        border-radius: 80rem;
+        background-color: #04509c;
+        backdrop-filter:blur(1px);
+        box-shadow: 5px 5px 20px 0px rgba(82, 148, 234, 0.5), inset -8px -2px 16px 0px rgba(4, 83, 186, 0.6), inset 10px 20px 40px 0px rgb(255, 255, 255);
+        cursor: pointer;
+        /* padding: 0.5rem 1rem; */
+        /* letter-spacing: 0.2rem; */
+        /* text-transform: uppercase; */
+    }
+  }
