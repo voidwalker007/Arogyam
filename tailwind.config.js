@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        display: ["Agbalumo", "cursive"],
+        robo : ["Roboto Mono", 'serif']
+      },
       colors: {
         'delft_blue': {
           DEFAULT: '#1d3272',
