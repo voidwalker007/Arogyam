@@ -1,7 +1,13 @@
 import React from 'react'
+import { Sidenav } from './Sidenav';
 
-export const Dashboard = () => {
+function Dashboard() {
   return (
-<div> ddadadda</div>
-  )
+    <div className="flex">
+      <Sidenav />
+   
+    </div>
+  );
 }
+
+export default Dashboard;
