@@ -16,10 +16,22 @@
         border-radius: 80rem;
         background-color: #04509c;
         backdrop-filter:blur(1px);
-        box-shadow: 5px 5px 20px 0px rgba(82, 148, 234, 0.5), inset -8px -2px 16px 0px rgba(4, 83, 186, 0.6), inset 10px 20px 40px 0px rgb(255, 255, 255);
+        box-shadow: 5px 5px 20px 0px rgba(82, 148, 234, 0.5), inset -60px -5px 16px -5px rgba(4, 83, 186, 0.6), inset 10px 20px 40px 0px rgb(255, 255, 255);
         cursor: pointer;
+        user-select: none;
         /* padding: 0.5rem 1rem; */
         /* letter-spacing: 0.2rem; */
         /* text-transform: uppercase; */
+    }
+
+    .main-button-card{
+        width: 40rem;
+        height: 15rem;
+        background-color: rgba(252, 254, 254, 0);
+        backdrop-filter: blur(5px);
+        color: #000;
+        border-radius: 64px;
+        box-shadow: 44px 54px 36px -30px rgba(74,144,226,0.6),
+    -13px -22px 39px 0px rgba(74,144,229,0.4) inset;
     }
   }
