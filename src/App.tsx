@@ -7,7 +7,10 @@ function App() {
 
   return (
     <>
-      <div className='relative'>
+      <div className=' relative flex '>
+        <div className='fixed top-1 left-1'>
+          {/* <img src="./src/assets/3d-logo-2.png" alt="3d-logo" height={200} width={140} className='object-fill'/> */}
+        </div>
         <Header/> 
       </div>
       <HeroSection/>
