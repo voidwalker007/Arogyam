@@ -17,14 +17,14 @@ export const HeroSection = () => {
         <div className="absolute top-[20rem] left-[70%] ">
           <img src="./src/assets/3d-boy-hand-shaking.png" alt="3d-boy-hand-shaking"  className=""/>
         </div>
-        {/* main card */}
+        {/* main user call card */}
         <div className="m-[35vh] mx-auto main-button-card flex flex-col py-[0.2rem] 
-        justify-center items-center text-center ">
+        justify-center items-center text-center sm:w-[50%] w-[70%]">
           <div className="">
-            <button className="font-robo py-2 px-3">Schedule a call</button>
+            <button className="font-robo py-2 px-3 font-extrabold text-[2rem]">Schedule a call</button>
           </div>
-          <div className="clay-button w-[10rem] h-[3rem] ">
-            <button className="text-white font-robo py-2 px-3">Consult Now</button>
+          <div className="main-clay-button content-stretch px-2">
+            <button className="text-white font-robo py-2 px-3 font-extrabold text-[1.3rem]">Consult Now</button>
           </div>
         </div>
     </>
