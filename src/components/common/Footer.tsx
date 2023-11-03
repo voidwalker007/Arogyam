@@ -1,7 +1,10 @@
-import React from 'react'
 
 export const Footer = () => {
   return (
-    <div>Footer</div>
+    <>
+      <footer className="h-[40vh] bg-slate-200">
+
+      </footer>
+    </>
   )
 }

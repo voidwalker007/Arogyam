@@ -5,9 +5,15 @@
 @layer components {
     .hero-section{
         background: rgb(145,210,255);
-        background: linear-gradient(184deg, rgba(145,210,255,1) 0%, rgba(152,208,255,1) 22%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(184deg, rgba(145,210,255,1) 0%, rgba(152,208,255,1) 22%, rgba(255,255,255,1) 100%) no-repeat;
         /* background: rgb(48,143,223);
         background: linear-gradient(184deg, rgba(48,143,223,1) 9%, rgba(128,186,235,1) 21%, rgba(255,255,255,1) 100%); */
+    }
+
+    .how-to-section{
+        /* background: rgb(255,255,255); */
+        /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,234,194,1) 45%, rgba(255,255,255,1) 100%); */
+        /* background: linear-gradient(0deg, #f0c370 0%, #ffffff 100%); */
     }
 
     .clay-card {
@@ -53,6 +59,13 @@
         border-radius: 64px;
         box-shadow: 44px 54px 36px -30px rgba(74,144,226,0.6),
             -13px -22px 39px 0px rgba(74,144,229,0.4) inset;
+    }
+
+    .how-to-clay-card{
+        backdrop-filter: blur(8px);
+        background-color: rgba(255, 255, 255, 0.9); 
+        border-radius: 15px; 
+        box-shadow: 20px 20px 30px 0px #ed254dc4, inset -8px -8px 16px 0px #ed254db0, inset 0px 11px 28px 0px rgb(255, 255, 255);
     }
   }
 

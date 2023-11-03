@@ -1,6 +1,9 @@
 import './App.css'
+import { Footer } from './components/common/Footer'
 import { Header } from './components/common/Header'
 import { HeroSection } from './components/landing/HeroSection'
+import HowToSection from './components/landing/HowToSection'
+import ServicesSection from './components/landing/ServicesSection'
 
 function App() {
 
@@ -14,6 +17,9 @@ function App() {
         <Header/> 
       </div>
       <HeroSection/>
+      <HowToSection/>
+      <ServicesSection/>
+      <Footer/>
     </>
   )
 }
