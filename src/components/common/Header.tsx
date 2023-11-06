@@ -1,5 +1,8 @@
+import { Link } from "react-router-dom"
 
 export const Header = () => {
+
+  
   return (
     <>
       <header className="relative z-[999] bg-white">
@@ -10,7 +13,9 @@ export const Header = () => {
             <li className="clay-button text-floral_white-900 font-robo py-2 px-3">Home</li>
             <li className="font-robo py-2 px-3">About</li>
             <li className="font-robo py-2 px-3">Contact</li>
-            <li className="font-robo py-2 px-3">Register</li>
+            <li className="font-robo py-2 px-3">
+              <Link to="/sign-up">Register</Link>
+            </li>
           </ul>
         </nav>
       </header>
