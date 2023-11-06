@@ -1,5 +1,18 @@
-
+import { Link } from "react-router-dom"
+import {useEffect} from 'react'
 export const HeroSection = () => {
+
+
+useEffect(() => {
+  
+
+  return () => {
+    
+  }
+}, [])
+
+
+
   return (
     <>
           {/* Blobs */}
@@ -24,8 +37,10 @@ export const HeroSection = () => {
             <button className="font-robo py-2 px-3 font-extrabold text-[2rem] text-delft_blue-500">Schedule a call</button>
           </div>
           <div className="main-clay-button content-stretch px-2">
-            <button className="text-white font-robo py-2 px-3 font-extrabold text-[1.3rem]">Consult Now</button>
-          </div>
+            <Link to="/dashboard" > 
+            <button className="text-white font-robo py-2 px-3 font-extrabold text-[1.3rem]" >Consult Now</button>
+         
+            </Link> </div>
         </div>
     </>
   )
