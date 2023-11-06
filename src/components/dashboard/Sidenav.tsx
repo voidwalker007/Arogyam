@@ -1,11 +1,46 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 export const Sidenav = () => {
   return (
-    <div className=" main-button-card bg-gray-200 w-1/12 h-full border-x-4 rounded-full p-4">
-
-      
-    {/* Add your navigation tabs here */}
-  </div>
-  )
-}
+    <div className=" main-button-card bg-gray-200 w-1/12 h-full rounded-full p-4">
+      <ul className=" h-full mx-4 w-20 gap-10 flex  flex-col justify-center align-middle">
+        <li>
+          <a href="#" className="block p-4 hover:bg-gray-300">
+            Tab 1
+          </a>
+        </li>
+        <li>
+          <a href="#" className="block p-4 hover:bg-gray-300">
+            Tab 2
+          </a>
+        </li>
+        <li>
+          <a href="#" className="block p-4 hover:bg-gray-300">
+            Tab 3
+          </a>
+        </li>
+        <li>
+          <Link to="/profile">
+            <a
+              href="#"
+              className="block p-4 main-clay-button content-stretch hover:bg-blue-300"
+            >
+              profile
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link to="/logout">
+            <a
+              href="#"
+              className="block p-4 main-clay-button content-stretch hover:bg-blue-300"
+            >
+              logout
+            </a>
+          </Link>
+        </li>
+      </ul>
+    </div>
+  );
+};
