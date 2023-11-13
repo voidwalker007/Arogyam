@@ -37,7 +37,7 @@ useEffect(() => {
             <button className="font-robo py-2 px-3 font-extrabold text-[2rem] text-delft_blue-500">Schedule a call</button>
           </div>
           <div className="main-clay-button content-stretch px-2">
-            <Link to="/dashboard" > 
+            <Link to="/dashboard/home" > 
             <button className="text-white font-robo py-2 px-3 font-extrabold text-[1.3rem]" >Consult Now</button>
          
             </Link> </div>
