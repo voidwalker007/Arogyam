@@ -6,9 +6,14 @@ export const Sidenav = () => {
     <div className=" main-button-card bg-gray-200 w-1/12 h-full rounded-full p-4">
       <ul className=" h-full mx-4 w-20 gap-10 flex  flex-col justify-center align-middle">
         <li>
-          <a href="#" className="block p-4 hover:bg-gray-300">
-            Tab 1
-          </a>
+        <Link to="/dashboard/home">
+            <a
+              href="#"
+              className="block p-4 main-clay-button content-stretch hover:bg-blue-300"
+            >
+            Home
+            </a>
+          </Link>
         </li>
         <li>
           <a href="#" className="block p-4 hover:bg-gray-300">

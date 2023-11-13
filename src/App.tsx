@@ -5,6 +5,8 @@ import Register from './components/authentication/Register'
 import Login from './components/authentication/Login'
 import { Profile } from './components/profile/profile'
 import Dashboard from './components/dashboard/Dashboard'
+import  Video  from './components/video/Video'
+import { Layout } from './components/dashboard/Layout'
 
 function App() {
   return (
@@ -14,8 +16,12 @@ function App() {
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/sign-up' element = {<Register/>}/> 
         <Route path='/login' element = {<Login/>}/> 
-        <Route path='/dashboard' element = {<Dashboard/>}/> 
-        <Route path='/profile' element = {<Profile/>}/> 
+        <Route path='/dashboard' element = {<Layout/>}> 
+        <Route path='/dashboard/home' element = {<Dashboard/>}/> 
+          <Route path='/dashboard/video' element = {<Video/>}/> 
+        
+          <Route path='/dashboard/profile' element = {<Profile/>}/> 
+        </Route>
       </Routes>
       </BrowserRouter>
     </>
