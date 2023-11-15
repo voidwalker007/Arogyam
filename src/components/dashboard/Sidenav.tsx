@@ -26,7 +26,7 @@ export const Sidenav = () => {
           </a>
         </li>
         <li>
-          <Link to="/profile">
+          <Link to="/dashboard/profile">
             <a
               href="#"
               className="block p-4 main-clay-button content-stretch hover:bg-blue-300"
